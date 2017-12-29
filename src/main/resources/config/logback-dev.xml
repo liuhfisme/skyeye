@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration>
+    <property name="logBaseDir" value="${catalina.base}/logs" ></property>
+    <property name="requestLogPattern" value="[%-5level] [%thread] %d{yyyy-MM-dd HH:mm:ss.SSS} %X{requestId} %c.%M:%L  %m%n"></property>
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>${requestLogPattern}</pattern>
+        </encoder>
+    </appender>
+    <root level="DEBUG">
+        <appender-ref ref="STDOUT"/>
+    </root>
+</configuration>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration>
+    <property name="logBaseDir" value="${catalina.base}/logs" ></property>
+    <property name="requestLogPattern" value="[%-5level] [%thread] %d{yyyy-MM-dd HH:mm:ss.SSS} %X{requestId} %c.%M:%L  %m%n"></property>
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>${requestLogPattern}</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${logBaseDir}/skyeye.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${logBaseDir}/skyeye.%d{yyyy-MM-dd}.log.gz</fileNamePattern>
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>${requestLogPattern}</pattern>
+        </encoder>
+    </appender>
+    <logger name="FILE" additivity="false">
+        <appender-ref ref="FILE"/>
+    </logger>
+    <root level="INFO">
+        <appender-ref ref="FILE"/>
+    </root>
+</configuration>
