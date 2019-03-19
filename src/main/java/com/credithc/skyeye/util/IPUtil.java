@@ -7,8 +7,11 @@ import java.net.UnknownHostException;
 import java.util.Enumeration;
 
 /**
- * Created by dongbin on 2017/4/24.
- * ip工具类
+ * ip工具类.
+ *
+ * @author feifei.liu
+ * @version 1.0
+ * @date 2017/4/24
  */
 public class IPUtil {
 

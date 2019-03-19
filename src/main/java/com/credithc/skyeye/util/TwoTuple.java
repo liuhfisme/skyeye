@@ -1,10 +1,11 @@
 package com.credithc.skyeye.util;
 
-
 /**
- * @Description: 二元组（工具类）
- * @Author ：dongbin
- * @Date ：2017/6/8
+ * 二元组（工具类）.
+ *
+ * @author feifei.liu
+ * @version 1.0
+ * @date 2017/6/8
  */
 public class TwoTuple<F, S> {
     /**

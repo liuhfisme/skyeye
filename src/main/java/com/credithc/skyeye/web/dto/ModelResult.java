@@ -1,10 +1,15 @@
 package com.credithc.skyeye.web.dto;
 
+import lombok.Data;
+
 /**
- * @Description: 响应结果
- * @Author ：dongbin
- * @Date ：2017/6/9
+ * 响应结果.
+ *
+ * @author feifei.liu
+ * @version 1.0
+ * @date 2017/6/9
  */
+@Data
 public class ModelResult {
     /**
      * 响应码
@@ -19,27 +24,4 @@ public class ModelResult {
      */
     private Object rspObj;
 
-    public Integer getRspCode() {
-        return rspCode;
-    }
-
-    public void setRspCode(Integer rspCode) {
-        this.rspCode = rspCode;
-    }
-
-    public String getRspMsg() {
-        return rspMsg;
-    }
-
-    public void setRspMsg(String rspMsg) {
-        this.rspMsg = rspMsg;
-    }
-
-    public Object getRspObj() {
-        return rspObj;
-    }
-
-    public void setRspObj(Object rspObj) {
-        this.rspObj = rspObj;
-    }
 }

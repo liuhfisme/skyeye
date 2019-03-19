@@ -1,14 +1,16 @@
 package com.credithc.skyeye.bean;
 
-import java.io.Serializable;
+import lombok.Data;
 
 /**
- * @Description : 订阅消息bean
- * @Author ：dongbin
- * @Date ：2017/9/19
+ * 订阅消息bean.
+ *
+ * @author feifei.liu
+ * @version 1.0
+ * @date 2017/9/19
  */
-public class SubscribeMessage implements Serializable {
-    private static final long serialVersionUID = -6656321584333688695L;
+@Data
+public class SubscribeMessage {
     /**
      * 客户端id
      */
@@ -22,27 +24,4 @@ public class SubscribeMessage implements Serializable {
      */
     private Object payload;
 
-    public String getClientId() {
-        return clientId;
-    }
-
-    public void setClientId(String clientId) {
-        this.clientId = clientId;
-    }
-
-    public String getDestination() {
-        return destination;
-    }
-
-    public void setDestination(String destination) {
-        this.destination = destination;
-    }
-
-    public Object getPayload() {
-        return payload;
-    }
-
-    public void setPayload(Object payload) {
-        this.payload = payload;
-    }
 }

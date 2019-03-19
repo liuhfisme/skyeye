@@ -9,9 +9,11 @@ import org.springframework.data.redis.cache.RedisCacheManager;
 import org.springframework.data.redis.core.RedisTemplate;
 
 /**
- * @Description : 缓存配置
- * @Author ：dongbin
- * @Date ：2017/6/20
+ * 缓存配置.
+ *
+ * @author feifei.liu
+ * @version 1.0
+ * @date 2017/6/20
  */
 @Configuration
 @EnableCaching

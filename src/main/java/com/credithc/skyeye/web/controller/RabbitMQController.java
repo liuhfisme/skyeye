@@ -12,9 +12,11 @@ import java.io.IOException;
 import java.util.List;
 
 /**
- * @Description : RabbitMQ
- * @Author ：dongbin
- * @Date ：2017/6/27
+ * RabbitMQ.
+ *
+ * @author feifei.liu
+ * @version 1.0
+ * @date 2017/6/27
  */
 @RestController
 @RequestMapping("/mq")

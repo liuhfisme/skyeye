@@ -32,7 +32,7 @@
     function connect() {
 //        var socket = new SockJS('/approveEndpoint');
 //        stompClient = Stomp.over(socket);
-        stompClient = Stomp.client("ws://127.0.0.1:9000/approverEndpoint", 'v11.stomp');
+        stompClient = Stomp.client("ws://127.0.0.1:9000/approveEndpoint", 'v11.stomp');
         stompClient.heartbeat.outgoing = 60000; // 客户端ping的频率，ms
         stompClient.heartbeat.incoming = 0;// 客户端pong的频率，如果为0表示不pong，也就是不接收服务端的信息，ms
         stompClient.connect({clientId: userId}, connectCallback, errorCallback);

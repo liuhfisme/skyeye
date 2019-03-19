@@ -10,9 +10,11 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * @Description: 请求拦截器
- * @Author ：dongbin
- * @Date ：2017/6/12
+ * 请求拦截器.
+ *
+ * @author feifei.liu
+ * @version 1.0
+ * @date 2017/6/12
  */
 public class RequestHandlerInterceptor extends HandlerInterceptorAdapter {
     private static final Logger logger = LoggerFactory.getLogger(RequestHandlerInterceptor.class);

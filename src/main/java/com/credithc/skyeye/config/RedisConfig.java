@@ -23,9 +23,11 @@ import redis.clients.jedis.JedisPoolConfig;
 import javax.annotation.Resource;
 
 /**
- * @Description :redis配置
- * @Author ：dongbin
- * @Date ：2017/9/19
+ * redis配置.
+ *
+ * @author feifei.liu
+ * @version 1.0
+ * @date 2017/9/19
  */
 @Configuration
 public class RedisConfig {

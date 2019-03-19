@@ -9,9 +9,11 @@ import org.springframework.boot.web.support.SpringBootServletInitializer;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
 /**
- * @Description: 项目入口
- * @Author ：dongbin
- * @Date ：2017/6/8
+ * 项目入口.
+ *
+ * @author feifei.liu
+ * @version 1.0
+ * @date 2017/6/8
  */
 @EnableScheduling
 @SpringBootApplication
