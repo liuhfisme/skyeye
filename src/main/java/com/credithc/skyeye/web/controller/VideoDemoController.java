@@ -8,9 +8,11 @@ import org.springframework.web.servlet.ModelAndView;
 import java.util.concurrent.ThreadLocalRandom;
 
 /**
- * @Description :视频demo
- * @Author ：dongbin
- * @Date ：2017/10/31
+ * 视频demo.
+ *
+ * @author feifei.liu
+ * @version 1.0
+ * @date 2017/10/31
  */
 @Controller
 @RequestMapping("/video")

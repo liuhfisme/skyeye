@@ -9,9 +9,11 @@ import org.springframework.web.socket.messaging.SessionConnectEvent;
 import javax.annotation.Resource;
 
 /**
- * @Description :websocket创建连接的监听
- * @Author ：dongbin
- * @Date ：2017/9/26
+ * websocket创建连接的监听.
+ *
+ * @author feifei.liu
+ * @version 1.0
+ * @date 2017/9/26
  */
 @Component
 public class WebSocketConnectListener implements ApplicationListener<SessionConnectEvent> {

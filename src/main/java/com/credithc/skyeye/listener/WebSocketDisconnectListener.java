@@ -8,9 +8,11 @@ import org.springframework.web.socket.messaging.SessionDisconnectEvent;
 import javax.annotation.Resource;
 
 /**
- * @Description : websocket断开连接的监听
- * @Author ：dongbin
- * @Date ：2017/9/26
+ * websocket断开连接的监听.
+ *
+ * @author feifei.liu
+ * @version 1.0
+ * @date 2017/9/26
  */
 @Component
 public class WebSocketDisconnectListener implements ApplicationListener<SessionDisconnectEvent>{

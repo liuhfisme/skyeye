@@ -11,9 +11,11 @@ import org.springframework.stereotype.Component;
 import javax.annotation.Resource;
 
 /**
- * @Description : 容器启动时执行一系列的操作
- * @Author ：dongbin
- * @Date ：2017/6/8
+ * 容器启动时执行一系列的操作.
+ *
+ * @author feifei.liu
+ * @version 1.0
+ * @date 2017/6/8
  */
 @Component
 @Order(1)

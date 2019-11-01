@@ -13,9 +13,11 @@ import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @Description: redis工具类
- * @Author ：dongbin
- * @Date ：2017/6/8
+ * redis工具类.
+ *
+ * @author feifei.liu
+ * @version 1.0
+ * @date 2017/6/8
  */
 public class RedisUtil {
 	private static final Logger logger = LoggerFactory.getLogger(RedisUtil.class);

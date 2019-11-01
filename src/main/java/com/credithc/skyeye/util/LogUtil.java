@@ -6,9 +6,11 @@ import org.slf4j.MDC;
 import java.util.UUID;
 
 /**
- * @Description : log工具类
- * @Author ：dongbin
- * @Date ：2017/11/7
+ * log工具类.
+ *
+ * @author feifei.liu
+ * @version 1.0
+ * @date 2017/11/7
  */
 public class LogUtil {
     /**

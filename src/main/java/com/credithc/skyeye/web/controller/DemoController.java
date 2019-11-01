@@ -16,9 +16,11 @@ import javax.annotation.Resource;
 import java.util.concurrent.ThreadLocalRandom;
 
 /**
- * @Author ：dongbin
- * @Description: demo控制器
- * @Date ：2017/6/7
+ * demo控制器.
+ *
+ * @author feifei.liu
+ * @version 1.0
+ * @date 2017/6/7
  */
 @Controller
 @RequestMapping("/demo")
@@ -41,8 +43,8 @@ public class DemoController {
 
     @RequestMapping(value = "/view")
     public String view(){
-        logger.info(RedisUtil.get("dongbin"));
-        System.out.println(RedisUtil.get("dongbin"));
+        logger.info(RedisUtil.get("feifei.liu"));
+        System.out.println(RedisUtil.get("feifei.liu"));
         return "view";
     }
 

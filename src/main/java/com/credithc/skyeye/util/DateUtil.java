@@ -11,10 +11,13 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.TimeZone;
+
 /**
- * @Description : 日期工具类
- * @Author ：dongbin
- * @Date ：2017/6/12
+ * 日期工具类.
+ *
+ * @author feifei.liu
+ * @version 1.0
+ * @date 2017/6/12
  */
 public class DateUtil {
     private static final Logger logger = LoggerFactory.getLogger(DateUtil.class);

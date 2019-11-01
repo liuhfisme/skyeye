@@ -17,9 +17,11 @@ import java.util.Set;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
- * @Description : webSocket服务端管理
- * @Author ：dongbin
- * @Date ：2017/9/19
+ * webSocket服务端管理.
+ *
+ * @author feifei.liu
+ * @version 1.0
+ * @date 2017/9/19
  */
 @Component
 public class WebSocketServerManager {

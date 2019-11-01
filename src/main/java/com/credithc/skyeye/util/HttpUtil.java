@@ -25,8 +25,11 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * Created by dongbin on 2016/11/30.
- * HTTP工具箱
+ * HTTP工具箱.
+ *
+ * @author feifei.liu
+ * @version 1.0
+ * @date 2016/11/30
  */
 public class HttpUtil {
     private static final Logger logger = Logger.getLogger(HttpUtil.class);

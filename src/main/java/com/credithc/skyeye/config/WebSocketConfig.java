@@ -23,9 +23,11 @@ import javax.annotation.Resource;
 import java.util.Map;
 
 /**
- * @Description : WebSocket配置
- * @Author ：dongbin
- * @Date ：2017/6/16
+ * WebSocket配置.
+ *
+ * @author feifei.liu
+ * @version 1.0
+ * @date 2017/6/16
  */
 /*
  * EnableWebSocketMessageBroker代表不仅启用websocket而且启用STOMP协议来传输基于代理(message broker)的消息,此时浏览器支持使用@MessageMapping 就像支持@RequestMapping一样。
